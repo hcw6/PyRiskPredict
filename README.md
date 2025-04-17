@@ -37,14 +37,14 @@ The project will follow a modular structure to separate concerns:
 </ol>
 
 ## Tech Stack
-Language: Python 3.x
-Core Libraries:
-pandas: For data loading and manipulation.
-numpy: For numerical operations.
-scikit-learn: For machine learning tasks (preprocessing, modeling, evaluation).
-matplotlib/seaborn: For data visualization (optional, mainly for EDA/evaluation).
-joblib/pickle: For saving/loading trained models.
-argparse: For command-line interface (optional).
+* Language: Python 3.x
+* Core Libraries:
+  * pandas: For data loading and manipulation.
+  * numpy: For numerical operations.
+  * scikit-learn: For machine learning tasks (preprocessing, modeling, evaluation).
+  * matplotlib/seaborn: For data visualization (optional, mainly for EDA/evaluation).
+  * joblib/pickle: For saving/loading trained models.
+  * argparse: For command-line interface (optional).
 ## Data Source
 This project will initially use publicly available, tabular datasets suitable for risk prediction tasks, such as those found on the UCI Machine Learning Repository or Kaggle Datasets. The specific dataset will be chosen and documented shortly. (Placeholder: Specify chosen dataset here once decided, e.g., Pima Indians Diabetes Database, UCI Heart Disease dataset)
 
