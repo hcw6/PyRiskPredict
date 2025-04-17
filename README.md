@@ -10,14 +10,14 @@ The project will follow a modular structure to separate concerns:
 <ol>
 <li> Data Loading & Preprocessing (data/ & src/data_processing.py):
 
-  * Scripts/functions to load datasets (e.g., from CSV files located in a data/ directory).
-  * Functions for data cleaning (handling missing values), feature engineering (if applicable), feature encoding (e.g., one-shot encoding), and feature scaling (e.g., standardization).
+  * Scripts/functions to load datasets.
+  * Functions for data cleaning, feature engineering, feature encoding, and feature scaling.
   * Responsible for preparing the data into a suitable format for model training.
 <li> Model Training (src/training.py):
 
 * Functions to split the processed data into training and testing sets.
-* Implementation of model training using algorithms from scikit-learn (e.g., Logistic Regression, Decision Tree, Random Forest).
-* Logic for saving trained models (e.g., using joblib or pickle).
+* Implementation of model training using algorithms from scikit-learn.
+* Logic for saving trained models.
 <li> Model Evaluation (src/evaluation.py):
 
 * Functions to evaluate the performance of trained models on the test set.
@@ -44,9 +44,9 @@ The project will follow a modular structure to separate concerns:
   * scikit-learn: For machine learning tasks (preprocessing, modeling, evaluation).
   * matplotlib/seaborn: For data visualization (optional, mainly for EDA/evaluation).
   * joblib/pickle: For saving/loading trained models.
-  * argparse: For command-line interface (optional).
+  * argparse: For command-line interface (stretch goal).
 ## Data Source
-This project will initially use publicly available, tabular datasets suitable for risk prediction tasks, such as those found on the UCI Machine Learning Repository or Kaggle Datasets. The specific dataset will be chosen and documented shortly. (Placeholder: Specify chosen dataset here once decided, e.g., Pima Indians Diabetes Database, UCI Heart Disease dataset)
+This project will initially use publicly available, tabular datasets suitable for risk prediction tasks, such as those found on the UCI Machine Learning Repository or Kaggle Datasets. The specific dataset will be chosen and documented shortly. (Placeholder: Selected dataset will go here once chosen, e.g., Pima Indians Diabetes Database, UCI Heart Disease dataset)
 
 ## Project Plan & Tasks
 The main development tasks are outlined as GitHub Issues within this repository.
