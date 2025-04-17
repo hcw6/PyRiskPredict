@@ -35,6 +35,7 @@ The project will follow a modular structure to separate concerns:
 
 * A place to store configuration variables like file paths, model parameters, random seeds, etc., to avoid hardcoding.
 </ol>
+
 ## Tech Stack
 Language: Python 3.x
 Core Libraries:
