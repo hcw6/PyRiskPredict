@@ -1,6 +1,6 @@
 # PyRiskPredict: Simple Patient Risk Predictor
 ## Overview
-PyRiskPredict is a Python project focused on building and evaluating simple machine learning models to predict patient risk based on tabular clinical-like datasets. This project serves as a learning exercise and the basis for the "Final Project" assignment.
+PyRiskPredict is a single-member-team Python project focused on building and evaluating simple machine learning models to predict patient risk based on tabular clinical-like datasets. This project serves as a learning exercise and the basis for the "Final Project" assignment.
 
 The primary goal is to implement a pipeline that includes data loading, preprocessing, model training, evaluation, and prediction using standard Python data science libraries.
 
@@ -31,22 +31,22 @@ The project will follow a modular structure to separate concerns:
 
 * A main script to execute the end-to-end pipeline: Load -> Preprocess -> Train -> Evaluate.
 * May utilize command-line arguments (using argparse) to control aspects like dataset path or model choice.
-<li> Configuration (config.py or config.yaml):
+<li><s> Configuration (config.py or config.yaml):</s> Skipped due to time contraints
 
-* A place to store configuration variables like file paths, model parameters, random seeds, etc., to avoid hardcoding.
-</ol>
+* <s>A place to store configuration variables like file paths, model parameters, random seeds, etc., to avoid hardcoding.
+</s></ol>
 
 ## Tech Stack
 * Language: Python 3.x
 * Core Libraries:
-  * pandas: For data loading and manipulation.
-  * numpy: For numerical operations.
-  * scikit-learn: For machine learning tasks (preprocessing, modeling, evaluation).
-  * matplotlib/seaborn: For data visualization (optional, mainly for EDA/evaluation).
-  * joblib/pickle: For saving/loading trained models.
-  * argparse: For command-line interface (stretch goal).
+  * pandas 1.5 or greater : For data loading and manipulation.
+  * scikit-learn 1.2 or greater : For machine learning tasks (preprocessing, modeling, evaluation).
+  * matplotlib 3.5 or greater + seaborn or greater 0.12: For data visualization.
+  * joblib 1.2 or greater: For saving/loading trained models.
+  * pytest 7.0 or greater: Code hardening etc.
+  * ucimlrepo 0.0.3 or greater : API for UC Irvine machine learning repository
 ## Data Source
-This project will initially use publicly available, tabular datasets suitable for risk prediction tasks, such as those found on the UCI Machine Learning Repository or Kaggle Datasets. The specific dataset will be chosen and documented shortly. (Placeholder: Selected dataset will go here once chosen, e.g., Pima Indians Diabetes Database, UCI Heart Disease dataset)
+This project will initially use publicly available, tabular datasets suitable for risk prediction tasks, such as those found on the UCI Machine Learning Repository or Kaggle Datasets. The specific dataset will be chosen and documented shortly.
 
 ## Project Plan & Tasks
 The main development tasks are outlined as GitHub Issues within this repository.
